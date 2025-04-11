@@ -55,7 +55,6 @@ async function handleCredentialResponse(response) {
     sessionStorage.setItem("profileImage", data.data.profileImage);
     sessionStorage.setItem("token", data.data.token);
     sessionStorage.setItem(`email`, data.data.email);
-    sessionStorage.setItem(`profileImage`, data.data.profileImage);
 
     // ログイン成功後、メインページへ遷移
     // window.location.href = "../main_graph/graph.html";
